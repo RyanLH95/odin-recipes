@@ -21,14 +21,12 @@
     width: 400px;
 }
 
-.content h1 h3 {
-    opacity: 1;
-}
-
+/* hover effect added to images */
 a img:hover{
     opacity: 0.5;
 }
 
+/* font added */
 h1, h3{
     font-family:'Courier New', Courier, monospace;
 }
