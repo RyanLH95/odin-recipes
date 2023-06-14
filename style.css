@@ -1,0 +1,26 @@
+/* style.css */
+
+.page {
+     background-image: url("./images/cooking.jpeg");
+     background-size: 1900px;
+}
+
+.panel {
+    background-color: #e9a15d;
+    color: #ffffff;
+    opacity: 0.75;
+    text-align: center;
+    width: 400px;
+}
+
+.content h1 h3 {
+    opacity: 1;
+}
+
+a img:hover{
+    opacity: 0.5;
+}
+
+h1, h3{
+    font-family:'Courier New', Courier, monospace;
+}
