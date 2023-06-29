@@ -1,16 +1,31 @@
+/* margin used to stretch to edge of screen */
+/* padding used to create space between 'home' element and top of screen */
 main {
     background-color: #e9a15d;
     margin: -10px;
-    padding-top: 20px;
+    padding-top: 1px;
+    padding-left: 50px;
 }
 
+/* design for home button, */
 .home a {
-    background-color: brown;
-    border: outset;
+    background-color: #a52a2a;
+    border-bottom: 3px solid #a52a2a;
+    border-right: 3px solid #a52a2a;
     border-color: rgb(140, 33, 33);
-    padding-top: -100px;
+    padding: 6px;
     position: relative; bottom: -10px;
     color: white;
     font-size: 30px;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+/* to separate from the 'home' element */
+.description {
+    margin-top: 100px;
+    margin-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    display: flex;
 }
