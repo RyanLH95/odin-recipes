@@ -3,7 +3,11 @@
 /* background content */
 .page {
      background-image: url("./images/cooking.jpeg");
-     background-size: 2050px;
+     background-size: cover;
+     margin-top: -50px;
+     margin-left: -10px;
+     margin-right: -10px;
+     margin-bottom: -50px; 
 }
 
 .page h1 {

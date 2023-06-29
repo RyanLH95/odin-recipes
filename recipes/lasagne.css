@@ -1,0 +1,14 @@
+main {
+    background-color: #e9a15d;
+    margin: -10px;
+}
+
+.home a {
+    background-color: brown;
+    border: outset;
+    border-color: rgb(140, 33, 33);
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
