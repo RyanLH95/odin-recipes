@@ -2,9 +2,12 @@
 /* padding used to create space between 'home' element and top of screen */
 main {
     background-color: #e9a15d;
-    margin: -10px;
+    height: -100px;
+    margin-right: -50px;
+    margin-left: -100px;
+    margin-top: -20px;
     padding-top: 1px;
-    padding-left: 50px;
+    padding-left: -50px;
 }
 
 /* design for home button, */
@@ -13,6 +16,7 @@ main {
     border-bottom: 3px solid #a52a2a;
     border-right: 3px solid #a52a2a;
     border-color: rgb(140, 33, 33);
+    margin-left: 100px;
     padding: 6px;
     position: relative; bottom: -10px;
     color: white;
@@ -25,7 +29,35 @@ main {
 .description {
     margin-top: 100px;
     margin-left: 200px;
+    gap: 200px;
     font-family: 'Courier New', Courier, monospace;
     color: #ffffff;
     display: flex;
+}
+
+/* use properties to bring intstruction closer to title of dish */
+.description h1 {
+    padding-left: -50px;
+}
+
+.food-description {
+    margin-left: 200px;
+    position: relative; bottom: 400px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.ragu-ingredients {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pasta {
+    position: relative; left: 40px;
+}
+
+.pasta-ingredients {
+    position: relative; left: -27px;
+}
+
+.sauce-ingredients {
+    position: relative; left: -27px;
 }
