@@ -61,3 +61,22 @@ main {
 .sauce-ingredients {
     position: relative; left: -27px;
 }
+
+.recipe-panel {
+    display: flex;
+    gap: 30px;
+}
+
+.other-thai a {
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.other-sasc a {
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+}
