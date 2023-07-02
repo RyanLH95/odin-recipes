@@ -3,7 +3,6 @@
 main {
     background-color: #e9a15d;
     height: -100px;
-    margin-right: -50px;
     margin-left: -100px;
     margin-top: -20px;
     padding-top: 1px;
@@ -67,6 +66,17 @@ main {
     gap: 30px;
 }
 
+.other-thai img {
+    display: block;
+    border-radius: 8px;
+    position: relative; left: 15px; top: 20px;
+    opacity: 0.5;
+}
+
+.other-thai img:hover {
+    opacity: 1;
+}
+
 .other-thai a {
     color: #ffffff;
     font-size: 30px;
@@ -79,4 +89,15 @@ main {
     font-size: 30px;
     font-family:'Courier New', Courier, monospace;
     text-decoration: none;
+}
+
+.other-sasc img {
+    display: block;
+    border-radius: 8px;
+    position: relative; left: 60px; top: 20px;
+    opacity: 0.5;
+}
+
+.other-sasc img:hover {
+    opacity: 1;
 }
