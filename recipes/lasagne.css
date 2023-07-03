@@ -104,14 +104,6 @@ main {
     position: relative; top: 50px
 }
 
-.other-sasc a {
-    color: #ffffff;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace;
-    text-decoration: none;
-    position: relative; top: 50px
-}
-
 /* to format and design image link */
 .other-sasc img {
     display: block;
@@ -123,4 +115,12 @@ main {
 /* opacity/hover effect for sweet and sour chicken recipe */
 .other-sasc img:hover {
     opacity: 1;
+}
+
+.other-sasc a {
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    position: relative; top: 50px
 }
