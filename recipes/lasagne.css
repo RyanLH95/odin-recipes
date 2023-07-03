@@ -2,9 +2,9 @@
 /* padding used to create space between 'home' element and top of screen */
 main {
     background-color: #e9a15d;
-    height: -100px;
     margin-left: -100px;
     margin-top: -20px;
+    margin-bottom: -10px;
     padding-top: 1px;
     padding-left: -50px;
 }
@@ -39,33 +39,41 @@ main {
     padding-left: -50px;
 }
 
+/* contains everything regarding 'lasagne' recipe */
 .food-description {
     margin-left: 200px;
-    position: relative; bottom: 400px;
+    position: relative; bottom: 450px;
     font-family:'Courier New', Courier, monospace;
 }
 
+/* font change only */
 .ragu-ingredients {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* position change only */
 .pasta {
     position: relative; left: 40px;
 }
 
+/* position change only */
 .pasta-ingredients {
     position: relative; left: -27px;
 }
 
+/* position change only */
 .sauce-ingredients {
     position: relative; left: -27px;
 }
 
+/* contains elements structured for other recipes */
 .recipe-panel {
     display: flex;
     gap: 30px;
+    margin-top: 30px;
 }
 
+/* to format and design image link */
 .other-thai img {
     display: block;
     border-radius: 8px;
@@ -73,24 +81,30 @@ main {
     opacity: 0.5;
 }
 
+/* opacity/hover effect for thai recipe */
 .other-thai img:hover {
     opacity: 1;
 }
 
+/* design format for thai recipe */
 .other-thai a {
     color: #ffffff;
     font-size: 30px;
     font-family:'Courier New', Courier, monospace;
     text-decoration: none;
+    position: relative; top: 48px;
 }
 
+/* design format for sweet and sour chicken recipe */
 .other-sasc a {
     color: #ffffff;
     font-size: 30px;
     font-family:'Courier New', Courier, monospace;
     text-decoration: none;
+    position: relative; top: 50px
 }
 
+/* to format and design image link */
 .other-sasc img {
     display: block;
     border-radius: 8px;
@@ -98,6 +112,7 @@ main {
     opacity: 0.5;
 }
 
+/* opacity/hover effect for sweet and sour chicken recipe */
 .other-sasc img:hover {
     opacity: 1;
 }
