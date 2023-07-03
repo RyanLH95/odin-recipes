@@ -1,0 +1,93 @@
+/* code in this script was made to replicate lasagne.css file */
+
+main {
+    background-color: #e9a15d;
+    margin-left: -100px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    padding-top: 1px;
+    padding-left: -50px;
+}
+
+.home a {
+    background-color: #a52a2a;
+    border-bottom: 3px solid #a52a2a;
+    border-right: 3px solid #a52a2a;
+    border-color: rgb(140, 33, 33);
+    margin-left: 100px;
+    padding: 6px;
+    position: relative; bottom: -10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.description {
+    margin-top: 100px;
+    margin-left: 200px;
+    gap: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    display: flex;
+}
+
+.description img {
+    position: relative; left: 217px;
+}
+
+.food-description {
+    margin-left: 200px;
+    position: relative; bottom: 400px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.directions {
+    position: relative; top: 10px;
+}
+
+.recipe-panel {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    position: relative; top: 50px;
+}
+
+.other-sasc img {
+    display: block;
+    border-radius: 8px;
+    position: relative; left: 60px; top: 20px;
+    opacity: 0.5;
+}
+
+.other-sasc img:hover {
+    opacity: 1;
+}
+
+.other-sasc a {
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    position: relative; top: 80px;
+    position: relative; left: -210px;
+}
+
+.other-lasa img {
+    display: block;
+    border-radius: 8px;
+    position: relative; left: -50px; top: 20px;
+    opacity: 0.5;
+}
+
+.other-lasa img:hover {
+    opacity: 1;
+}
+
+.other-lasa a {
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    position: relative; top: 80px; left: -110px;
+}
